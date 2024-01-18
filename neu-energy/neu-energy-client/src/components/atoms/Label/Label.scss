@@ -1,0 +1,59 @@
+.label {
+  color: $negro;
+  &__generic {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-right: 1.5rem;
+    font-weight: 900;
+    height: 5rem;
+  }
+
+  &__hour {
+    font-weight: 250;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    grid-column: 21;
+    font-size: 2rem;
+
+    margin-bottom: -1rem;
+  }
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 250;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  &__day {
+    font-family: Arial, Helvetica, sans-serif;
+    transform: rotate(270deg);
+    font-size: 2rem;
+    position: absolute;
+    font-weight: 250;
+    font-weight: bold;
+    grid-row: 10;
+    grid-column: 1;
+  }
+
+  &__hours {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    height: 1.25rem;
+    margin-right: 0.5rem;
+    width: 3.1rem;
+    position: relative;
+  }
+
+  &__days {
+    font-weight: 250;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 250;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+}

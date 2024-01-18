@@ -1,0 +1,45 @@
+.tabla {
+  display: grid;
+  grid-template-columns: repeat(41, 1fr);
+  grid-template-rows: repeat(19, 1fr);
+  height: 89%;
+  position: absolute;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 5rem;
+  transform: scale(0.85);
+}
+
+.main-table {
+  position: relative;
+  grid-column: 3 / 41;
+  grid-row: 2 / 20;
+  overflow: auto;
+}
+
+.main-table::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.main-table::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.main-table::-webkit-scrollbar-button {
+  display: -webkit-flex;
+  background-color: black;
+  border-radius: 0.5rem;
+}
+
+.main-table::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.main-table::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.main-table::-webkit-scrollbar-track {
+  border-radius: 10px;
+}

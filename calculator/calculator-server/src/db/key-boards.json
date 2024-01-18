@@ -1,0 +1,78 @@
+[
+  {
+    "text": "C",
+    "classname": "keyboard__clear keyboard__clear--operator"
+  },
+  {
+    "text": "←",
+    "classname": "keyboard__back keyboard__back--operator"
+  },
+  {
+    "text": "%",
+    "classname": "keyboard__module keyboard__module--operator"
+  },
+  {
+    "text": "÷",
+    "classname": "keyboard__divide keyboard__divide--operator"
+  },
+  {
+    "text": "7",
+    "classname": "keyboard__seven"
+  },
+  {
+    "text": "8",
+    "classname": "keyboard__eight"
+  },
+  {
+    "text": "9",
+    "classname": "keyboard__nine"
+  },
+  {
+    "text": "×",
+    "classname": "keyboard__multiply keyboard__multiply--operator"
+  },
+  {
+    "text": "4",
+    "classname": "keyboard__four"
+  },
+  {
+    "text": "5",
+    "classname": "keyboard__five"
+  },
+  {
+    "text": "6",
+    "classname": "keyboard__six"
+  },
+  {
+    "text": "-",
+    "classname": "keyboard__minus keyboard__minus--operator"
+  },
+  {
+    "text": "1",
+    "classname": "keyboard__one"
+  },
+  {
+    "text": "2",
+    "classname": "keyboard__two"
+  },
+  {
+    "text": "3",
+    "classname": "keyboard__three"
+  },
+  {
+    "text": "+",
+    "classname": "keyboard__plus keyboard__plus--operator"
+  },
+  {
+    "text": "0",
+    "classname": "keyboard__zero"
+  },
+  {
+    "text": ".",
+    "classname": "keyboard__dot keyboard__dot--operator"
+  },
+  {
+    "text": "=",
+    "classname": "keyboard__enter keyboard__enter--operator"
+  }
+]

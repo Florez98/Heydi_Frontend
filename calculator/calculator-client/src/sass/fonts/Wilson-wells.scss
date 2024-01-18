@@ -1,0 +1,8 @@
+// TODO: How to import Wilson Wells correctly?
+@font-face {
+  font-family: 'Wilson Wells';
+  src: url('./Wilson-wells/Wilson-wells.otf') format('opentype'),
+    url('./Wilson-wells/Wilson-wells.ttf') format('truetype'), url('./Wilson-wells/Wilson-wells.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}

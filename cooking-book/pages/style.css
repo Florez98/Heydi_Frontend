@@ -1,0 +1,287 @@
+/**
+ * Minified by jsDelivr using clean-css v4.2.1.
+ * Original file: /npm/reset-css@5.0.1/reset.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, main, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+[hidden] {
+  display: none;
+}
+
+body {
+  line-height: 1;
+}
+
+menu, ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+@font-face {
+  font-family: "oswald";
+  src: url(../fonts/Oswald-VariableFont_wght.ttf);
+  font-weight: 400;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vw;
+  color: #1c0e50;
+  background-color: rgba(23, 138, 32, 0.856);
+  background-image: radial-gradient(circle, rgb(248, 248, 248) 1px, transparent 70%);
+  background-size: 5rem 5rem;
+}
+body #display-block {
+  display: flex;
+  justify-content: center;
+}
+body #display-block #info-beige-background {
+  width: 65%;
+  height: 90vw;
+  position: absolute;
+  z-index: -1;
+  background-color: rgba(255, 255, 255, 0.742);
+  border-radius: 3rem;
+  margin-right: 20rem;
+  margin-top: 17rem;
+}
+body #display-block .info-cooking-recipe {
+  width: 70vw;
+  height: 70vw;
+  justify-content: center;
+  position: relative;
+}
+body #display-block .info-cooking-recipe header {
+  width: 100%;
+  margin-top: 10rem;
+}
+body #display-block .info-cooking-recipe header .parte-arriba {
+  display: flex;
+  align-items: center;
+  background-color: #00000000;
+  padding-top: 7rem;
+}
+body #display-block .info-cooking-recipe header .parte-arriba img {
+  width: 30rem;
+  height: 12rem;
+  border-radius: 20px;
+  margin: 3rem;
+  background-color: #080680;
+}
+body #display-block .info-cooking-recipe header .parte-arriba div .cursive-title{
+  font-family: satisfy;
+  font-size: 7rem;
+  width: 70%;
+  position: relative;
+  top: 1rem;
+}
+body #display-block .info-cooking-recipe header .parte-arriba div h1 {
+  text-transform: satisfy;
+  font-size: 8rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-left: 15rem;
+}
+body #display-block .info-cooking-recipe header > h2 {
+  background-color: rgba(255, 0, 149, 0.929);
+  align-self: flex-end;
+  line-height: 7rem;
+  padding-left: 3rem;
+  color: white;
+  font-size: 9rem;
+  font-family: satisfy;
+  font-weight: 1300;
+  width: 70%;
+  height: 7rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  -webkit-text-stroke: 0.7px rgba(221, 43, 147, 0.929);
+}
+body #display-block .info-cooking-recipe main.blocks-controller {
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+body #display-block .info-cooking-recipe main.blocks-controller aside {
+  width: 100%;
+  top: 2rem;
+}
+body #display-block .info-cooking-recipe main.blocks-controller aside article {
+  font-family: oswald;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+body #display-block .info-cooking-recipe main.blocks-controller aside article h3 {
+  font-size: 2.2rem;
+}
+body #display-block .info-cooking-recipe main.blocks-controller aside article > ul {
+  font-size: 2rem;
+}
+body #display-block .info-cooking-recipe main.blocks-controller aside article > ul > li {
+  margin: 0.5rem;
+}
+body #display-block .info-cooking-recipe main.blocks-controller aside .steps-icons {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  
+}
+body #display-block .info-cooking-recipe main.blocks-controller aside .steps-icons span {
+  position: relative;
+  bottom: 0.3rem;
+}
+body #display-block .info-cooking-recipe main.blocks-controller aside .steps-icons i {
+  font-size: 2.5rem;
+  color: rgb(255, 0, 149, 0.9293);
+  /* margin-right: 1px;
+  margin-left: 1px; */
+}
+body #display-block .info-cooking-recipe main.blocks-controller aside .steps-images {
+  display: flex;
+  flex-direction: column;
+}
+body #display-block .info-cooking-recipe main.blocks-controller aside .steps-images .process-images {
+  width: 300px;
+  height: 200px;
+  margin: 4px 0px;
+  border-radius: 2rem;
+  border-top: 10px solid rgb(255, 0, 149, 0.9293);
+  border-right: 10px solid rgb(255, 0, 149, 0.9293);
+  border-bottom: 10px solid rgb(255, 0, 149, 0.9293);
+  border-left: 10px solid rgb(255, 0, 149, 0.9293);
+}
+body #display-block .info-cooking-recipe main.blocks-controller section {
+  width: 50%;
+  margin-right: 10rem;
+}
+body #display-block .info-cooking-recipe main.blocks-controller section img {
+  width: 450px;
+  height: 350px;
+  border-radius: 2rem;
+  border-top: 10px solid rgb(255, 0, 149, 0.9293);
+  border-right: 10px solid rgb(255, 0, 149, 0.9293);
+  border-bottom: 10px solid rgb(255, 0, 149, 0.9293);
+  border-left: 10px solid rgb(255, 0, 149, 0.9293);
+}
+body #display-block .info-cooking-recipe main.blocks-controller section h3 {
+  font-size: 3rem;
+  font-family: oswald;
+  padding-top: 2rem;
+}
+body #display-block .info-cooking-recipe main.blocks-controller section li {
+  font-family: oswald;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 3.5rem 0;
+}
+body #display-block .info-cooking-recipe footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+body #display-block .info-cooking-recipe footer #follow-information {
+  font-size: 1.6rem;
+  width: 10%;
+  position: relative;
+  top: 5rem;
+  left: 7rem;
+  margin-top: 3rem;
+}
+body #display-block .info-cooking-recipe footer #follow-information div {
+  display: flex;
+}
+body #display-block .info-cooking-recipe footer #follow-information div i {
+  margin: 0.5rem;
+  font-size: 3rem;
+}
+body #display-block .info-cooking-recipe footer #follow-information div a {
+  font-size: 30px;
+  margin: 2rem 12rem;
+}
+body #display-block .info-cooking-recipe footer .tips {
+  width: 80%;
+  position: relative;
+  bottom: 17rem;
+  padding-top: 13rem;
+}
+body #display-block .info-cooking-recipe footer .tips .footer-title {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  left: 10rem;
+  bottom: 5rem;
+}
+body #display-block .info-cooking-recipe footer .tips .footer-title .tips-title {
+  text-align: center;
+  font-size: 6rem;
+  width: 35rem;
+  height: 7rem;
+  padding: 1rem;
+  color: white;
+  background-color: #080680;
+  margin: 1rem;
+  border-radius: 3rem;
+  margin-bottom: 25rem;
+}
+body #display-block .info-cooking-recipe footer .tips .footer-title .little-chef {
+  width: 30rem;
+  height: 40rem;
+  padding-right: 1rem;
+  padding-top: 10rem;
+}
+body #display-block .info-cooking-recipe footer .tips p {
+  position: relative;
+  font-size: 2rem;
+  z-index: -1;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-right: 2.5rem;
+  padding-left: 2rem;
+  border-radius: 3rem;
+  bottom: 35rem;
+  
+}
+body .site-url{
+  padding-top: 25rem;
+}
+/*# sourceMappingURL=style.css.map */

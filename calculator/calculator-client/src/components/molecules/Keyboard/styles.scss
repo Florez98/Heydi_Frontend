@@ -1,0 +1,24 @@
+@import '../../../sass/';
+
+.keyboard {
+  display: grid;
+  grid-template-columns: 3rem 3rem 3rem 3rem;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'clear back module divide'
+    'seven eight nine multiply'
+    'four five six minus'
+    'one two three plus'
+    'zero dot enter enter';
+  gap: 0.5rem;
+
+  @each $button in $buttons {
+    &__#{$button} {
+      grid-area: $button;
+
+      &--operator {
+        background-color: $color-navy-blue;
+      }
+    }
+  }
+}
